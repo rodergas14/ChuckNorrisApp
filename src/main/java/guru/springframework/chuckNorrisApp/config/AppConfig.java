@@ -1,14 +1,14 @@
-package guru.springframework.chuckNorrisApp;
+package guru.springframework.chuckNorrisApp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 
-@Configuration
+//@Configuration
 public class AppConfig {
 	
-	@Bean
+	//@Bean
 	public ChuckNorrisQuotes getChuckNorrisQuotes() {
 		return new ChuckNorrisQuotes();
 	}
